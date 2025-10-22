@@ -1,7 +1,13 @@
 title: "Briana Verdugo"
 description: "Mathematical Statistician | Data & Economic Analysis | Analytics for Public Impact"
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: dark
+remote_theme: mmistakes/minimal-mistakes@4.24.0
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-include-cache
 
 url: "https://brianaverdugo.github.io"
 baseurl: ""
