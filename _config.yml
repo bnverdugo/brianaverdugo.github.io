@@ -1,0 +1,42 @@
+title: "Briana Verdugo"
+description: "Mathematical Statistician | Data & Economic Analysis | Analytics for Public Impact"
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: dark
+
+url: "https://brianaverdugo.github.io"
+baseurl: ""
+
+author:
+  name: "Briana Verdugo"
+  bio: "Mathematical Statistician passionate about data-driven insights, survey research, and policy analytics."
+  location: "San Diego, CA"
+  email: "your.email@example.com"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/brianaverdugo"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/brianaverdugo"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:your.email@example.com"
+
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+  - jekyll-paginate
+
+paginate: 5
+paginate_path: "/page:num/"
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
